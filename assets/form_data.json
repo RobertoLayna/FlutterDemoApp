@@ -1,0 +1,11 @@
+{
+    "name": "Juanito",
+    "surname": "Dos",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "birthDate": "1990-01-01T00:00:00.000Z",
+    "country": "USA",
+    "rfc": "DOEJ900101XXX",
+    "termsAccepted": true
+  }
+  
