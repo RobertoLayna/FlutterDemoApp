@@ -1,3 +1,4 @@
+import 'package:aplicaciones_moviles_app/presentation/pages/transactions.dart';
 import 'package:flutter/material.dart';
 import '../widgets/card_item.dart';
 import 'page1.dart';
@@ -24,12 +25,22 @@ class HomePage extends StatelessWidget {
             },
           ),
           CardItem(
-            title: 'API Implement',
+            title: 'API Post Implement',
             description: 'Go to Page',
             onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => Page2()),
+              );
+            },
+          ),
+          CardItem(
+            title: 'API Get Implement',
+            description: 'Go to Page',
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Page3()),
               );
             },
           ),
